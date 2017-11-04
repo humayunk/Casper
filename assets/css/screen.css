@@ -109,8 +109,7 @@ body {
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    background: no-repeat center center;
     background-size: cover;
 }
 
@@ -123,7 +122,6 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.18);
 }
 
 .site-header:after {
@@ -136,7 +134,6 @@ body {
     z-index: 10;
     display: block;
     height: 80px;
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
 }
 
 .site-header.no-cover:before,
@@ -164,7 +161,7 @@ body {
 }
 
 .site-logo {
-    max-height: 45px;
+    max-height: 200px;
 }
 
 .site-description {
@@ -262,7 +259,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: #fff;
+    color: #000;
     opacity: 0.8;
 }
 
@@ -1852,8 +1849,8 @@ Usage (In Ghost editor):
     position: relative;
     padding-top: 20px;
     padding-bottom: 60px;
-    color: #fff;
-    background: color(var(--darkgrey) l(-15%));
+    color: #000;
+    background: #FEF49D;
 }
 
 .site-footer-content {
@@ -1861,16 +1858,16 @@ Usage (In Ghost editor):
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    color: rgba(255,255,255,0.7);
+    color: #000;
     font-size: 1.3rem;
 }
 
 .site-footer-content a {
-    color: rgba(255,255,255,0.7);;
+    color: #000;;
 }
 
 .site-footer-content a:hover {
-    color: rgba(255,255,255,1);
+    color: #000;
     text-decoration: none;
 }
 
